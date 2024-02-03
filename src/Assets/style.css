@@ -1,0 +1,19 @@
+/* nav hide  */
+.hideNav{
+    display: flex;
+}
+@media (max-width:840px) {
+    .hideNav{
+        display: none;
+    }
+}
+
+.hideNavMenu{
+    display: block;
+    margin-right: 0.5rem;
+}
+@media (min-width:840px) {
+    .hideNavMenu{
+        display: none;
+    }
+}
